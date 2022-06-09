@@ -1,0 +1,24 @@
+.Pokemons{
+    padding-bottom: 40px;
+
+    .card{
+        width: 100%;
+        padding: 0 136px;
+        margin-top: 20px;
+        display: flex;
+        position: relative;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: none;
+        background-clip: border-box;
+        border: none;
+        border-radius: 0.25rem;
+
+        @media (max-width:768px){
+            padding: 0 5px;
+        }
+    }
+}
+
+
+

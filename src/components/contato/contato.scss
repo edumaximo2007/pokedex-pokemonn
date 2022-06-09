@@ -1,0 +1,15 @@
+.Contato{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    padding-top: 60px;
+    padding-left: 155px;
+
+    @media (max-width: 1024px) {
+        padding-left: 100px;
+    }
+
+    @media (max-width: 600px) {
+        padding-left: 20px;
+    }
+}

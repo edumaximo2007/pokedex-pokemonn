@@ -1,0 +1,18 @@
+.Caixa__pesquisa{
+    margin-top: 20px;
+    text-align: center;
+}
+.Pesquisa{
+    background: url("../../../assets/img/search.png") no-repeat content-box;
+    background-position: right;
+    border: 1px solid lightblue;
+    padding: 0 30px;
+    border-radius: 25px ;
+    box-shadow: 8px 8px 10px rgba(225, 228, 232, 0.5);
+    height: 53px;
+    width: 85%;
+
+}
+.Pesquisa:focus{
+    outline: 0 ;
+}

@@ -1,0 +1,71 @@
+/* .bqyzQp {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 10px;
+    width: 100%;
+    
+} */
+
+
+/* .bwKzNw {
+    display: grid;
+    grid-column-gap: 8px;
+    justify-items: stretch;
+    position: relative;
+    -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.2,1,0.3,1) 0s;
+    -webkit-transition: transform 0.5s cubic-bezier(0.2,1,0.3,1) 0s;
+    transition: transform 0.5s cubic-bezier(0.2,1,0.3,1) 0s;
+    grid-template-columns: repeat(60,100%);
+    -webkit-transform: translateX(calc(-300% - 24px));
+    -ms-transform: translateX(calc(-300% - 24px));
+    transform: translateX(calc(-300% - 24px));
+    @media (max-width: 1024px) {
+    grid-template-columns:  repeat(100%)  ;
+    grid-template-rows: repeat(100%); 
+    column-gap:100%;
+    row-gap: 100%;
+    width: 100%;
+    margin-left: 100px;
+    }
+} */
+
+/* .igjxiE {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+
+    @media (max-width: 1024px) {
+    flex-wrap: nowrap;
+        
+    }
+
+} */
+
+.bVoXXg {
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    width:162px;
+    height:122px;
+    text-align:center;
+    box-sizing: border-box;
+    border: 1px solid #ff000040;
+
+    @media (max-width:750px){
+        width: 100%;
+        height: 40%;
+    }
+
+    @media (max-width:400px){
+        width: 100%;
+        height: 40%;
+       }
+}
+
+
+.Card__item{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+
+}

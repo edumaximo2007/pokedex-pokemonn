@@ -1,0 +1,41 @@
+.Contato__texto{
+    font-family: "inter", sans-serif;
+    
+    .Contato__titulo{
+        
+        font-size: 60px;
+        margin-bottom: 50px;
+
+        @media (max-width:1024px) {
+            font-size: 50px;
+        }
+
+
+        @media (max-width:600px) {
+            font-size: 30px;
+        }
+    } 
+
+    .Contato__links{
+        display: flex;
+        flex-direction: column;
+    }
+    a{
+        font-size: 18px;
+        color: #212121;
+        letter-spacing: 1px;
+        line-height: 1.8;
+        text-decoration: none;
+
+        @media (max-width:1024px) {
+            font-size: 16px;
+        }
+
+
+        @media (max-width:600px) {
+            font-size: 14px;
+        }
+
+    }
+
+}

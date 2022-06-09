@@ -1,0 +1,39 @@
+.Lista__cartao{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    width:162px;
+    height:120px;
+    text-align:center;
+    box-sizing: border-box;
+    
+    @media (max-width:1024px){
+        width: 100%;
+        height: 100%;
+    }
+
+       
+    .Lista__cartao img{
+        object-fit: contain;
+        background-size: 80% 60%;
+        background-position: center;
+        overflow: hidden;
+
+        @media (max-width:1024px){
+            background-size: 100%;
+        }
+
+        @media (max-width:400px){
+            background-size: 120%;
+           }
+        
+    }
+    
+    
+    .Lista__cartao  h2{
+        font-family: "Inter";
+        color: #ff000040;
+        text-decoration: none;
+    }
+    
+}

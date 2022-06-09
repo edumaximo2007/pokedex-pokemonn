@@ -1,0 +1,23 @@
+.Pokemons__titulo{
+    color: (--fonte-color-pokemon-texto);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    letter-spacing: 3px;
+    padding-top: 60px  ;
+    text-align: center;
+    
+    @media (max-width: 1024px) {
+        font-size: 32px;
+        padding: 40px 60px 0;
+        
+    }
+    @media (max-width: 600px) {
+        font-size: 22px;
+        padding: 30px 60px 0;
+        line-height: 32px;
+        
+    }
+}

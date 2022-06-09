@@ -1,0 +1,27 @@
+.botao{
+    margin-top: 4em;
+    @media (max-width:600px) {
+        margin-top: 2em;
+        text-align: center;
+    }
+}
+.botao__link{
+    color: #FFF;
+    text-decoration: none;
+    background: #48D0B0;
+    border: none;
+    box-shadow:  0px 5px rgb(209,209,209);
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 25px 50px;
+    text-align: center;
+
+    @media (max-width:600px) {
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+}
